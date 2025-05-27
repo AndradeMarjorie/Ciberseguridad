@@ -1,7 +1,7 @@
 .nav-menu{
   list-style:none;
   padding:0;
-  display: flex;
+  display: flex; /* Flexbox: menu horizontal */
   justify-content:center;
   gap:1rem;
 }
@@ -9,8 +9,9 @@
   color:white;
   text-decoration:none;
 }
+/*galería con grid*/
 grid-galeria{
-  display:grid;
+  display:grid; /*grid*/
   grid-temple-columns:repeat(auto-fit, minmax(250px, 1fr))
   gap: 1rem;
 }
