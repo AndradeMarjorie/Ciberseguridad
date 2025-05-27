@@ -207,6 +207,7 @@ header {
   color: white;
   padding: 20px;
   text-align: center;
+  border-bottom: 4px solid #0066cc;
 }
 
 
@@ -220,6 +221,7 @@ header {
 .item {
   background-color: white;
   padding: 15px;
+  border: 2px solid #ccc;
   border-radius: 8px;
   box-shadow: 0 2px 5px rgba(0,0,0,0.1);
 }
@@ -240,6 +242,7 @@ footer {
   color: white;
   padding: 15px;
   margin-top: 20px;
+  border-top: 4px solid #0066cc;
 }
 
   
