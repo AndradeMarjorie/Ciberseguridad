@@ -1,0 +1,30 @@
+.nav-menu{
+  list-style:none;
+  padding:0;
+  display: flex;
+  justify-content:center;
+  gap:1rem;
+}
+.nav menu a{
+  color:white;
+  text-decoration:none;
+}
+grid-galeria{
+  display:grid;
+  grid-temple-columns:repeat(auto-fit, minmax(250px, 1fr))
+  gap: 1rem;
+}
+
+.grid-galeria img{
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+  box-shadow:0 0 8px rgba(0,0,0,0.2);
+  transition: transform 0.3s ease;
+
+  footer{
+    text-aling: center;
+    padding: 1rem;
+    background-color: #1e1e2f;
+    color:white;
+  
